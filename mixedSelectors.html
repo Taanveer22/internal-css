@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mixed selectors</title>
+    <style>
+        /* *{
+            margin:0;
+            padding: 0;
+        } */
+        /* p{
+            color:red;
+        } */
+        #fifth{
+            font-size: 26px;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        input{
+            font-size: 23px;
+        }
+        input[type="password"]{
+            color: red;
+        }
+        .partition{
+            color:green;
+            font-size: 2rem;
+        }
+        .blog{
+            background-color: aquamarine;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>selectors list:</h3>
+    <ul>
+        <li>universal</li>
+        <li>element</li>
+        <li>id</li>
+        <li>class</li>
+        <li>grouping</li>
+        <li>attribute</li>
+    </ul>
+
+    <p>my first line css</p>
+    <p class="yellow">my second line css</p>
+    <p>my third line css</p>
+    <p class="yellow bold">my fourth line css</p>
+    <p id="fifth">my fifth line css</p>
+    <p class="bold">my sixth line css</p>
+    <p>my seventh line css</p>
+
+    <p>my <span class="partition">span line</span> css</p>
+
+    <form action="">
+        <input type="email" name="" id=""> <br> <br>
+        <!-- attribute selector applied here -->
+        <input type="password" name="" id=""> <br> <br>
+        <input type="submit" value="login">
+    </form>
+
+    <div class="blog">
+        <h3>my blog</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis distinctio ad ex rerum aspernatur qui in deserunt, mollitia placeat est!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ad, quis aliquam dolor a iure quam voluptates! Veniam explicabo cum vero odio nesciunt fugiat optio temporibus atque aperiam porro, sint repudiandae placeat voluptatum nisi voluptas? Aut similique corrupti omnis nisi?</p>
+    </div>
+    
+</body>
+
+</html>
